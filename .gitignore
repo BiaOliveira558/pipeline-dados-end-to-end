@@ -1,0 +1,19 @@
+# Senhas e tokens
+.env
+profiles.yml
+
+# Dados (não subir datasets)
+data/
+*.csv
+*.parquet
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Airflow
+airflow/logs/
+
+# Sistema
+.DS_Store
